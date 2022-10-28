@@ -145,7 +145,7 @@ class TrRun(tornado.web.RequestHandler):
 
             img_detected = img.copy()
             img_draw = ImageDraw.Draw(img_detected)
-            colors = ['red', 'green', 'blue', "purple"]
+            colors = ['red']
 
             for i, r in enumerate(res):
                 rect, txt, confidence = r
